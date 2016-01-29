@@ -1,0 +1,28 @@
+Last login: Fri Jan 29 01:25:11 on ttys004
+Erics-MacBook-Pro:~ EricDkim$ telnet 172.20.0.90 80
+Trying 172.20.0.90...
+Connected to 172.20.0.90.
+Escape character is '^]'.
+GET /~dkim3/ HTTP/1.0
+
+HTTP/1.1 200 OK
+Date: Fri, 29 Jan 2016 06:44:07 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Last-Modified: Fri, 29 Jan 2016 06:23:01 GMT
+ETag: "6f-52a73112a81c2"
+Accept-Ranges: bytes
+Content-Length: 111
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+
+<html>
+	<title>Eric's Page</title>
+	<body>
+		<h1>About</h1>
+		<p>This page is about Eric</p>
+	</body>
+</html>
+
+Connection closed by foreign host.
+Erics-MacBook-Pro:~ EricDkim$ 
